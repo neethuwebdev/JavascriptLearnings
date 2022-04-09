@@ -1,0 +1,58 @@
+body {
+    background: aliceblue;
+}
+h1 {
+    text-align: center;
+}
+.my-counter {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background: darkgray;
+    border-radius: 10px;
+}
+.btns-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.counter-btn {
+    flex: 1 0 40%;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: white;
+    border: 3px solid transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+.counter-btn:hover {
+    background: beige;
+}
+.counter-incr:focus {
+    border: 3px solid green;
+    color: green;
+}
+.counter-decr:focus {
+    border: 3px solid red;
+    color: red;
+}
+.counter-val {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.counter-gray {
+    color: lightgray;
+}
+.counter-green {
+    color: green;
+}
+.counter-red {
+    color: red;
+}
+.counter-features {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}

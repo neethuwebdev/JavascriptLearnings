@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Fundamentals – Part 1</title>
+    <link rel="stylesheet" href="./css/counter.css"> </link>
+  </head>
+  <body>
+    <h1>Counter App</h1>
+    <div>
+      <h3 style="text-align: center;">Below is the counter which either increments/decrements counter value.</h3>
+      <ol class="counter-features">
+        <li>Click Increment to increase counter value by 1</li>
+        <li>Click Decrement to decrease counter value by 1</li>
+        <li>If counter value is 0 or less, its color is red</li>
+        <li>If counter value is > 0 , its color is green</li>
+      </ol>
+    </div>
+    <div class="my-counter">
+        <h4 class="counter-val" current-val="0">0</h4>
+        <div class="btns-wrapper">
+            <button class="counter-btn counter-incr">+</button>
+            <button class="counter-btn counter-decr">-</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/counter-app.js"> </script>
+  </body>
+  
+</html>
